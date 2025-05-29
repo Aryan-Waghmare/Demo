@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://crm.winwayschemtech.com/css/admin/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="https://crm.winwayschemtech.com/css/admin/style.css" type="text/css">
+  <link rel="stylesheet" href="https://crm.winwayschemtech.com/css/admin/select2.min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    type="text/css">
+  <link rel="stylesheet" href="../css/mygroup2.css" type="text/css">
+  <script src="https://crm.winwayschemtech.com/scripts/admin/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+  <script src="https://crm.winwayschemtech.com//scripts/admin/bootstrap.min.js"></script>
+</head>
+
+ <body>
+  <div class="container-fluid">
+    <div id="ContentPlaceHolder1_divGroup" class="w-team-mainbox">
+      <div class="w-team-header">
+        <div class="act-inact-top">
+          <div>
+            <b>My Groups</b>
+          </div>
+          <div class="add-btn-contain-div">
+            <a href class="create-group-org" data-toggle="modal" data-target="#CreateGroup"><img src="../img/add2.svg"
+                alt="">Create Group</a>
+          </div>
+        </div>
+      </div>
+      <div class="w-team-contant">
+        <b>This Organization is part of my below Groups.</b>
+        <div class="w-team-table">
+          <hr />
+
+          <div class="lead-list orglist" style="flex-direction: row;">
+            <div class="lead-left">
+              <img src='../img/active-sm-industry-2.svg' alt="" />
+            </div>
+            <div class="lead-right">
+              <div class="orgdiv-top">
+                <div class="org-top-left">
+                  <a id="ContentPlaceHolder1_lvGroups_btnGroupSummary_0" class="company-link"
+                    href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$lvGroups$ctrl0$btnGroupSummary&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Group:
+                    Pidilite Industries</a>
+                  |
+                  <b>Group Manager:</b>
+                  Sharon Alvares | Created by Sharon Alvares on 22-May-2024
+                </div>
+              </div>
+              <p class="industry-type">
+                <b>Group Organizations</b>
+                : Swastik Ferrotec Pvt ltd, Pidilite Industries Limited, Carmel Industries LLP etc.
+              </p>
+              <p>
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- MODEL Create Group  1st popup-->
+
+  <div class="modal fade" id="CreateGroup" tabindex="-1" role="dialog" aria-labelledby="modalTitleOrgHistory"
+    aria-hidden="true">
+    <div class="modal-dialog custom-full" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Create a New Group of two or more Organization</h5>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="section-header">
+            <span>Organizations in this Group</span>
+            <a href="#" class="btn btn-sm btn-primary add-group-org" id="openSearchOrgBtn">
+              <img src="../img/add2.svg" alt="">
+              Add Organization
+            </a>
+
+          </div>
+          <div class="org-box mt-3">
+            <div class="lead-list orglist">
+              <div class="lead-left"><img src="../img/active.svg" alt=""></div>
+              <div class="lead-right">
+                <div class="orgdiv-top">
+                  <div class="org-top-left">
+                    <a href="#" class="company-link">SHML Infra Private Limited</a>
+                    <b>Proprietor: Mr. Vasant Bhatti</b> |
+                    <span style="padding:0 5px; color:red"><i class="fa-solid fa-heart"></i></span>
+                    <span class="org-other-info">
+                      <div class="tootltip-org">
+                        <div><b>Winways ID</b>: 121 <b>PAN</b>: Not Available</div>
+                        <div><b>Remark</b>: lorem ipsum dolor set emmet Lorem lorem ipsum ipsum
+                          dolor set emmet Lorem</div>
+                        <div>Created by Deepti on 08-09-2024</div>
+                        <div>Last Updated by Rajesh on 08-09-2024</div>
+                      </div>
+                      <img src="../img/info.svg" alt="">
+                    </span>
+                  </div>
+
+                </div>
+                <ul class="contact-info-box mb-1">
+                  <li style="font-weight: normal !important;">A Plus </li>
+                  <li>Sunil Dahivade </li>
+                  <li>Sharon Alvares </li>
+                  <li>Thana production</li>
+                  <li>North</li>
+                  <li>Company</li>
+                  <li>Winways dealer</li>
+                  <li class="org-other-info">
+                    <div class="inconsistent-org">
+                      <b>No Information available on organization profile regarding if the
+                        organization is a manufacturer or trader/ distributor</b>
+                    </div>
+                    <a class="inconsistent " href="#">
+
+                      inconsistent info</a>
+                  </li>
+                </ul>
+
+                <ul class="contact-info-box">
+                  <li>
+                    Mr. Vasant Bhatti
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i> +91 9920959257
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> nareshbagda@bhaviindia.com
+                  </li>
+
+                </ul>
+
+                <p class="industry-type"><b>Industries &amp; Applications</b>: Paints &amp; Coatings, Personal
+                  Care &amp; Cosmetics, Dry Mortar</p>
+
+
+
+              </div>
+
+            </div>
+            <div class="lead-list orglist">
+              <div class="lead-left"><img src="../img/active.svg" alt=""></div>
+              <div class="lead-right">
+                <div class="orgdiv-top">
+                  <div class="org-top-left">
+                    <a href="#" class="company-link">SHML Infra Private Limited</a>
+                    <b>Proprietor: Mr. Vasant Bhatti</b> |
+                    <span style="padding:0 5px; color:red"><i class="fa-solid fa-heart"></i></span>
+                    <span class="org-other-info">
+                      <div class="tootltip-org">
+                        <div><b>Winways ID</b>: 121 <b>PAN</b>: Not Available</div>
+                        <div><b>Remark</b>: lorem ipsum dolor set emmet Lorem lorem ipsum ipsum
+                          dolor set emmet Lorem</div>
+                        <div>Created by Deepti on 08-09-2024</div>
+                        <div>Last Updated by Rajesh on 08-09-2024</div>
+                      </div>
+                      <img src="../img/info.svg" alt="">
+                    </span>
+                  </div>
+
+                </div>
+                <ul class="contact-info-box mb-1">
+                  <li style="font-weight: normal !important;">A Plus </li>
+                  <li>Sunil Dahivade </li>
+                  <li>Sharon Alvares </li>
+                  <li>Thana production</li>
+                  <li>North</li>
+                  <li>Company</li>
+                  <li>Winways dealer</li>
+                  <li class="org-other-info">
+                    <div class="inconsistent-org">
+                      <b>No Information available on organization profile regarding if the
+                        organization is a manufacturer or trader/ distributor</b>
+                    </div>
+                    <a class="inconsistent " href="#">
+
+                      inconsistent info</a>
+                  </li>
+                </ul>
+
+                <ul class="contact-info-box">
+                  <li>
+                    Mr. Vasant Bhatti
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i> +91 9920959257
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> nareshbagda@bhaviindia.com
+                  </li>
+
+                </ul>
+
+                <p class="industry-type"><b>Industries &amp; Applications</b>: Paints &amp; Coatings, Personal
+                  Care &amp; Cosmetics, Dry Mortar</p>
+
+
+
+
+              </div>
+
+              <div class="right-my-group">
+                <td align="right">
+                  <a href class="button-color-red go-delete-buttonmy" onclick="showDeleteToast(event)">
+                    <i class="fa-solid fa-trash"></i>
+                  </a>
+                </td>
+              </div>
+
+            </div>
+            <div class="lead-list orglist">
+              <div class="lead-left"><img src="../img/active.svg" alt=""></div>
+              <div class="lead-right">
+                <div class="orgdiv-top">
+                  <div class="org-top-left">
+                    <a href="#" class="company-link">SHML Infra Private Limited</a>
+                    <b>Proprietor: Mr. Vasant Bhatti</b> |
+                    <span style="padding:0 5px; color:red"><i class="fa-solid fa-heart"></i></span>
+                    <span class="org-other-info">
+                      <div class="tootltip-org">
+                        <div><b>Winways ID</b>: 121 <b>PAN</b>: Not Available</div>
+                        <div><b>Remark</b>: lorem ipsum dolor set emmet Lorem lorem ipsum ipsum
+                          dolor set emmet Lorem</div>
+                        <div>Created by Deepti on 08-09-2024</div>
+                        <div>Last Updated by Rajesh on 08-09-2024</div>
+                      </div>
+                      <img src="../img/info.svg" alt="">
+                    </span>
+                  </div>
+
+                </div>
+                <ul class="contact-info-box mb-1">
+                  <li style="font-weight: normal !important;">A Plus </li>
+                  <li>Sunil Dahivade </li>
+                  <li>Sharon Alvares </li>
+                  <li>Thana production</li>
+                  <li>North</li>
+                  <li>Company</li>
+                  <li>Winways dealer</li>
+                  <li class="org-other-info">
+                    <div class="inconsistent-org">
+                      <b>No Information available on organization profile regarding if the
+                        organization is a manufacturer or trader/ distributor</b>
+                    </div>
+                    <a class="inconsistent " href="#">
+
+                      inconsistent info</a>
+                  </li>
+                </ul>
+
+                <ul class="contact-info-box">
+                  <li>
+                    Mr. Vasant Bhatti
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i> +91 9920959257
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> nareshbagda@bhaviindia.com
+                  </li>
+
+                </ul>
+
+                <p class="industry-type"><b>Industries &amp; Applications</b>: Paints &amp; Coatings, Personal
+                  Care &amp; Cosmetics, Dry Mortar</p>
+
+
+
+
+              </div>
+
+              <div class="right-my-group">
+                <td align="right">
+                  <a href class="button-color-red go-delete-buttonmy" onclick="showDeleteToast(event)">
+                    <i class="fa-solid fa-trash"></i>
+                  </a>
+                </td>
+              </div>
+
+            </div>
+          </div>
+          <div class="pt-2 pb-3">
+            <a href="#" class="Nextlink ">Next</a>
+            <a href="#" class="cancellink">Cancel</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="deleteToast" class="alert alert-msg alert-warning alert-dismissible fade" role="alert"
+    style="display:none; position: fixed; bottom: 20px; right: 20px; z-index: 9999;">
+    <img src="../img/greentick.svg" alt="">
+    <strong>Organization Removed Successfully</strong>
+    <button type="button" class="close" onclick="closeToast()" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <!-- MODEL Create Group Search: 2nd popup -->
+  <div class="modal fade" id="openSearchOrg" tabindex="-1" role="dialog" aria-labelledby="modalTitleOrgHistory"
+    aria-hidden="true">
+    <div class="modal-dialog modal-narrow" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add Organization</h5>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="section-header">
+            <div class="mygroup-right-search">
+              <div class="search" style="display: flex; width: 100%;justify-content: flex-end;">
+                <input type="text" class="searchTerm-bar" placeholder="Search here...">
+                <button type="submit" class="searchButtonmygroup">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+
+          </div>
+          <div class="org-box mt-3">
+            <textarea class="remark-box" placeholder="Remark..."></textarea>
+          </div>
+          <div class="pt-2 pb-3">
+            <a href="#" id="modal3btn" class="savelink">Add</a>
+            <a href="#" class="cancellink">Cancel</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- 3rd popup -->
+
+  <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modalTitleModal3" aria-hidden="true">
+    <div class="modal-dialog custom-full" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Create a New Group of two or more Organization</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="d-flex justify-content-between align-items-start mb-3">
+            <!-- Left Side: Group Name and Remark stacked vertically, but text and inputs side by side -->
+            <div style="width: 450px;">
+              <div class="d-flex mb-2">
+                <label for="groupName" class="form-label" style="width: 120px;"><b>Group Name :</b></label>
+                <input type="text" id="groupName" class="form-control" value="Pidilite Industries" style="flex: 1;" />
+              </div>
+
+              <div class="d-flex mb-2">
+                <label for="remark" class="form-label" style="width: 120px;"><b>Remark :</b></label>
+                <input type="text" id="remark" class="form-control" style="flex: 1;" />
+              </div>
+            </div>
+
+            <!-- Right Side: Group Admin aligned bottom right -->
+            <div class="d-flex align-self-end" style="padding-left: 20px;">
+              <label class="mb-0" style="margin-right: 10px;"><b>Group Admin :</b></label>
+              <p class="mb-0" style="color: #393185;">Ms. Rekha Adsul</p>
+            </div>
+          </div>
+          <div class="section-header">
+            <span>Organizations in this Group</span>
+          </div>
+          <div class="org-box mt-3">
+            <div class="lead-list orglist">
+              <div class="lead-left"><img src="../img/active.svg" alt=""></div>
+              <div class="lead-right">
+                <div class="orgdiv-top">
+                  <div class="org-top-left">
+                    <a href="#" class="company-link">SHML Infra Private Limited</a>
+                    <b>Proprietor: Mr. Vasant Bhatti</b> |
+                    <span style="padding:0 5px; color:red"><i class="fa-solid fa-heart"></i></span>
+                    <span class="org-other-info">
+                      <div class="tootltip-org">
+                        <div><b>Winways ID</b>: 121 <b>PAN</b>: Not Available</div>
+                        <div><b>Remark</b>: lorem ipsum dolor set emmet Lorem lorem ipsum ipsum
+                          dolor set emmet Lorem</div>
+                        <div>Created by Deepti on 08-09-2024</div>
+                        <div>Last Updated by Rajesh on 08-09-2024</div>
+                      </div>
+                      <img src="../img/info.svg" alt="">
+                    </span>
+                  </div>
+
+                </div>
+                <ul class="contact-info-box mb-1">
+                  <li style="font-weight: normal !important;">A Plus </li>
+                  <li>Sunil Dahivade </li>
+                  <li>Sharon Alvares </li>
+                  <li>Thana production</li>
+                  <li>North</li>
+                  <li>Company</li>
+                  <li>Winways dealer</li>
+                  <li class="org-other-info">
+                    <div class="inconsistent-org">
+                      <b>No Information available on organization profile regarding if the
+                        organization is a manufacturer or trader/ distributor</b>
+                    </div>
+                    <a class="inconsistent " href="#">
+
+                      inconsistent info</a>
+                  </li>
+                </ul>
+
+                <ul class="contact-info-box">
+                  <li>
+                    Mr. Vasant Bhatti
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i> +91 9920959257
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> nareshbagda@bhaviindia.com
+                  </li>
+
+                </ul>
+
+                <p class="industry-type"><b>Industries &amp; Applications</b>: Paints &amp; Coatings, Personal
+                  Care &amp; Cosmetics, Dry Mortar</p>
+
+
+
+              </div>
+
+            </div>
+            <div class="lead-list orglist">
+              <div class="lead-left"><img src="../img/active.svg" alt=""></div>
+              <div class="lead-right">
+                <div class="orgdiv-top">
+                  <div class="org-top-left">
+                    <a href="#" class="company-link">SHML Infra Private Limited</a>
+                    <b>Proprietor: Mr. Vasant Bhatti</b> |
+                    <span style="padding:0 5px; color:red"><i class="fa-solid fa-heart"></i></span>
+                    <span class="org-other-info">
+                      <div class="tootltip-org">
+                        <div><b>Winways ID</b>: 121 <b>PAN</b>: Not Available</div>
+                        <div><b>Remark</b>: lorem ipsum dolor set emmet Lorem lorem ipsum ipsum
+                          dolor set emmet Lorem</div>
+                        <div>Created by Deepti on 08-09-2024</div>
+                        <div>Last Updated by Rajesh on 08-09-2024</div>
+                      </div>
+                      <img src="../img/info.svg" alt="">
+                    </span>
+                  </div>
+
+                </div>
+                <ul class="contact-info-box mb-1">
+                  <li style="font-weight: normal !important;">A Plus </li>
+                  <li>Sunil Dahivade </li>
+                  <li>Sharon Alvares </li>
+                  <li>Thana production</li>
+                  <li>North</li>
+                  <li>Company</li>
+                  <li>Winways dealer</li>
+                  <li class="org-other-info">
+                    <div class="inconsistent-org">
+                      <b>No Information available on organization profile regarding if the
+                        organization is a manufacturer or trader/ distributor</b>
+                    </div>
+                    <a class="inconsistent " href="#">
+
+                      inconsistent info</a>
+                  </li>
+                </ul>
+
+                <ul class="contact-info-box">
+                  <li>
+                    Mr. Vasant Bhatti
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i> +91 9920959257
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> nareshbagda@bhaviindia.com
+                  </li>
+
+                </ul>
+
+                <p class="industry-type"><b>Industries &amp; Applications</b>: Paints &amp; Coatings, Personal
+                  Care &amp; Cosmetics, Dry Mortar</p>
+
+
+
+
+              </div>
+
+              <div class="right-my-group">
+                <td align="right">
+                  <a href class="button-color-red go-delete-buttonmy" onclick="showDeleteToast(event)">
+                    <i class="fa-solid fa-trash"></i>
+                  </a>
+                </td>
+              </div>
+
+            </div>
+            <div class="lead-list orglist">
+              <div class="lead-left"><img src="../img/active.svg" alt=""></div>
+              <div class="lead-right">
+                <div class="orgdiv-top">
+                  <div class="org-top-left">
+                    <a href="#" class="company-link">SHML Infra Private Limited</a>
+                    <b>Proprietor: Mr. Vasant Bhatti</b> |
+                    <span style="padding:0 5px; color:red"><i class="fa-solid fa-heart"></i></span>
+                    <span class="org-other-info">
+                      <div class="tootltip-org">
+                        <div><b>Winways ID</b>: 121 <b>PAN</b>: Not Available</div>
+                        <div><b>Remark</b>: lorem ipsum dolor set emmet Lorem lorem ipsum ipsum
+                          dolor set emmet Lorem</div>
+                        <div>Created by Deepti on 08-09-2024</div>
+                        <div>Last Updated by Rajesh on 08-09-2024</div>
+                      </div>
+                      <img src="../img/info.svg" alt="">
+                    </span>
+                  </div>
+
+                </div>
+                <ul class="contact-info-box mb-1">
+                  <li style="font-weight: normal !important;">A Plus </li>
+                  <li>Sunil Dahivade </li>
+                  <li>Sharon Alvares </li>
+                  <li>Thana production</li>
+                  <li>North</li>
+                  <li>Company</li>
+                  <li>Winways dealer</li>
+                  <li class="org-other-info">
+                    <div class="inconsistent-org">
+                      <b>No Information available on organization profile regarding if the
+                        organization is a manufacturer or trader/ distributor</b>
+                    </div>
+                    <a class="inconsistent " href="#">
+
+                      inconsistent info</a>
+                  </li>
+                </ul>
+
+                <ul class="contact-info-box">
+                  <li>
+                    Mr. Vasant Bhatti
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i> +91 9920959257
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> nareshbagda@bhaviindia.com
+                  </li>
+
+                </ul>
+
+                <p class="industry-type"><b>Industries &amp; Applications</b>: Paints &amp; Coatings, Personal
+                  Care &amp; Cosmetics, Dry Mortar</p>
+
+
+
+
+              </div>
+
+              <div class="right-my-group">
+                <td align="right">
+                  <a href class="button-color-red go-delete-buttonmy" onclick="showDeleteToast(event)">
+                    <i class="fa-solid fa-trash"></i>
+                  </a>
+                </td>
+              </div>
+
+            </div>
+          </div>
+          <div class="pt-2 pb-3">
+            <a href="#" class="backlink">Back</a>
+            <a href="#" id="openNewPopup" class="snlink">Save & Next</a>
+            <a href="#" class="cancellink">Cancel</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 4th popup -->
+
+  <div class="modal fade" id="newPopupModal" tabindex="-1" role="dialog" aria-labelledby="newPopupLabel"
+    aria-hidden="true">
+    <div class="modal-dialog custom-full" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Congrats...The below Group is Created</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="d-flex mb-2 label-mygrp">
+            <label for="groupName" class="form-label" style="width: 120px;"><b>Group Name :</b></label>
+            <p class="form-control-plaintext mb-0">Pidilite Industries</p>
+          </div>
+
+          <div class="d-flex mb-2 label-mygrp">
+            <label for="remark" class="form-label" style="width: 120px;"><b>Remark :</b></label>
+            <p class="form-control-plaintext mb-0">Some remark here</p>
+          </div>
+          <div class="section-header">
+            <span>Organizations in this Group</span>
+          </div>
+          <div class="org-box mt-3">
+            <div class="lead-list orglist">
+              <div class="lead-left"><img src="../img/active.svg" alt=""></div>
+              <div class="lead-right">
+                <div class="orgdiv-top">
+                  <div class="org-top-left">
+                    <a href="#" class="company-link">SHML Infra Private Limited</a>
+                    <b>Proprietor: Mr. Vasant Bhatti</b> |
+                    <span style="padding:0 5px; color:red"><i class="fa-solid fa-heart"></i></span>
+                    <span class="org-other-info">
+                      <div class="tootltip-org">
+                        <div><b>Winways ID</b>: 121 <b>PAN</b>: Not Available</div>
+                        <div><b>Remark</b>: lorem ipsum dolor set emmet Lorem lorem ipsum ipsum
+                          dolor set emmet Lorem</div>
+                        <div>Created by Deepti on 08-09-2024</div>
+                        <div>Last Updated by Rajesh on 08-09-2024</div>
+                      </div>
+                      <img src="../img/info.svg" alt="">
+                    </span>
+                  </div>
+
+                </div>
+                <ul class="contact-info-box mb-1">
+                  <li style="font-weight: normal !important;">A Plus </li>
+                  <li>Sunil Dahivade </li>
+                  <li>Sharon Alvares </li>
+                  <li>Thana production</li>
+                  <li>North</li>
+                  <li>Company</li>
+                  <li>Winways dealer</li>
+                  <li class="org-other-info">
+                    <div class="inconsistent-org">
+                      <b>No Information available on organization profile regarding if the
+                        organization is a manufacturer or trader/ distributor</b>
+                    </div>
+                    <a class="inconsistent " href="#">
+
+                      inconsistent info</a>
+                  </li>
+                </ul>
+
+                <ul class="contact-info-box">
+                  <li>
+                    Mr. Vasant Bhatti
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i> +91 9920959257
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> nareshbagda@bhaviindia.com
+                  </li>
+
+                </ul>
+
+                <p class="industry-type"><b>Industries &amp; Applications</b>: Paints &amp; Coatings, Personal
+                  Care &amp; Cosmetics, Dry Mortar</p>
+
+
+
+              </div>
+
+            </div>
+            <div class="lead-list orglist">
+              <div class="lead-left"><img src="../img/active.svg" alt=""></div>
+              <div class="lead-right">
+                <div class="orgdiv-top">
+                  <div class="org-top-left">
+                    <a href="#" class="company-link">SHML Infra Private Limited</a>
+                    <b>Proprietor: Mr. Vasant Bhatti</b> |
+                    <span style="padding:0 5px; color:red"><i class="fa-solid fa-heart"></i></span>
+                    <span class="org-other-info">
+                      <div class="tootltip-org">
+                        <div><b>Winways ID</b>: 121 <b>PAN</b>: Not Available</div>
+                        <div><b>Remark</b>: lorem ipsum dolor set emmet Lorem lorem ipsum ipsum
+                          dolor set emmet Lorem</div>
+                        <div>Created by Deepti on 08-09-2024</div>
+                        <div>Last Updated by Rajesh on 08-09-2024</div>
+                      </div>
+                      <img src="../img/info.svg" alt="">
+                    </span>
+                  </div>
+
+                </div>
+                <ul class="contact-info-box mb-1">
+                  <li style="font-weight: normal !important;">A Plus </li>
+                  <li>Sunil Dahivade </li>
+                  <li>Sharon Alvares </li>
+                  <li>Thana production</li>
+                  <li>North</li>
+                  <li>Company</li>
+                  <li>Winways dealer</li>
+                  <li class="org-other-info">
+                    <div class="inconsistent-org">
+                      <b>No Information available on organization profile regarding if the
+                        organization is a manufacturer or trader/ distributor</b>
+                    </div>
+                    <a class="inconsistent " href="#">
+
+                      inconsistent info</a>
+                  </li>
+                </ul>
+
+                <ul class="contact-info-box">
+                  <li>
+                    Mr. Vasant Bhatti
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i> +91 9920959257
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> nareshbagda@bhaviindia.com
+                  </li>
+
+                </ul>
+
+                <p class="industry-type"><b>Industries &amp; Applications</b>: Paints &amp; Coatings, Personal
+                  Care &amp; Cosmetics, Dry Mortar</p>
+
+
+
+
+              </div>
+
+              <div class="right-my-group">
+                <td align="right">
+                  <a href class="button-color-red go-delete-buttonmy" onclick="showDeleteToast(event)">
+                    <i class="fa-solid fa-trash"></i>
+                  </a>
+                </td>
+              </div>
+
+            </div>
+            <div class="lead-list orglist">
+              <div class="lead-left"><img src="../img/active.svg" alt=""></div>
+              <div class="lead-right">
+                <div class="orgdiv-top">
+                  <div class="org-top-left">
+                    <a href="#" class="company-link">SHML Infra Private Limited</a>
+                    <b>Proprietor: Mr. Vasant Bhatti</b> |
+                    <span style="padding:0 5px; color:red"><i class="fa-solid fa-heart"></i></span>
+                    <span class="org-other-info">
+                      <div class="tootltip-org">
+                        <div><b>Winways ID</b>: 121 <b>PAN</b>: Not Available</div>
+                        <div><b>Remark</b>: lorem ipsum dolor set emmet Lorem lorem ipsum ipsum
+                          dolor set emmet Lorem</div>
+                        <div>Created by Deepti on 08-09-2024</div>
+                        <div>Last Updated by Rajesh on 08-09-2024</div>
+                      </div>
+                      <img src="../img/info.svg" alt="">
+                    </span>
+                  </div>
+
+                </div>
+                <ul class="contact-info-box mb-1">
+                  <li style="font-weight: normal !important;">A Plus </li>
+                  <li>Sunil Dahivade </li>
+                  <li>Sharon Alvares </li>
+                  <li>Thana production</li>
+                  <li>North</li>
+                  <li>Company</li>
+                  <li>Winways dealer</li>
+                  <li class="org-other-info">
+                    <div class="inconsistent-org">
+                      <b>No Information available on organization profile regarding if the
+                        organization is a manufacturer or trader/ distributor</b>
+                    </div>
+                    <a class="inconsistent " href="#">
+
+                      inconsistent info</a>
+                  </li>
+                </ul>
+
+                <ul class="contact-info-box">
+                  <li>
+                    Mr. Vasant Bhatti
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i> +91 9920959257
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> nareshbagda@bhaviindia.com
+                  </li>
+
+                </ul>
+
+                <p class="industry-type"><b>Industries &amp; Applications</b>: Paints &amp; Coatings, Personal
+                  Care &amp; Cosmetics, Dry Mortar</p>
+
+
+
+
+              </div>
+
+              <div class="right-my-group">
+                <td align="right">
+                  <a href class="button-color-red go-delete-buttonmy" onclick="showDeleteToast(event)">
+                    <i class="fa-solid fa-trash"></i>
+                  </a>
+                </td>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="section-header section-spacing">
+            <span>Group Team :</span>
+          </div>
+          <div class="org-box mt-3">
+            <div class="w-team-table">
+              <table width="100%">
+                <tr style="border-bottom: 1px solid #cccccc">
+                  <td width="60px"></td>
+                  <td width="30%">User</td>
+                  <td>Remark</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="../img/active.svg" alt>
+                  </td>
+                  <td>
+                    <b>Ms. Deepti Pasi</b> <span class="admin-tag">Admin</span>
+                  </td>
+                  <td>
+                    15 Nov 2024 | 12.00 PM Requested for Access
+                    <br>
+                    Lorem ipsum dolor set emmet solr dolor set emmet added by
+                    lorem ipsum
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="mygrp-btn">
+            <a href="#" id="addWinwaysUserModalBtn" class="add-w-user">Add more Winways User as a Member to this
+              Group</a>
+            <a href="#" class="do-later">Do it later</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- popup  5th -->
+
+  <div class="modal fade" id="addWinwaysUserModal" tabindex="-1" role="dialog" aria-labelledby="modalTitleOrgHistory"
+    aria-hidden="true">
+    <div class="modal-dialog modal-narrow" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add Winways User to this Group</h5>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="section-header">
+            <div class="mygroup-right-search">
+              <div class="search" style="display: flex; width: 100%;justify-content: flex-end;">
+                <input type="text" class="searchTerm-bar" placeholder="Search here...">
+                <button type="submit" class="searchButtonmygroup">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+
+          </div>
+          <div class="org-box mt-3">
+            <textarea class="remark-box" placeholder="Remark..."></textarea>
+          </div>
+          <div class="pt-2 pb-3">
+            <a href="#" id="confirmdltbtn" class="savelink">Add</a>
+            <a href="#" class="cancellink">Cancel</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- popup 6th -->
+
+  <div class="modal fade" id="confirmdlt" tabindex="-1" role="dialog" aria-labelledby="newPopupLabel"
+    aria-hidden="true">
+    <div class="modal-dialog custom-full" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Congrats...The below Group is Created</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="d-flex mb-2 label-mygrp">
+            <label for="groupName" class="form-label" style="width: 120px;"><b>Group Name :</b></label>
+            <p class="form-control-plaintext mb-0">Pidilite Industries</p>
+          </div>
+
+          <div class="d-flex mb-2 label-mygrp">
+            <label for="remark" class="form-label" style="width: 120px;"><b>Remark :</b></label>
+            <p class="form-control-plaintext mb-0">Some remark here</p>
+          </div>
+          <div class="section-header">
+            <span>Organizations in this Group</span>
+          </div>
+          <div class="org-box mt-3">
+            <div class="lead-list orglist">
+              <div class="lead-left"><img src="../img/active.svg" alt=""></div>
+              <div class="lead-right">
+                <div class="orgdiv-top">
+                  <div class="org-top-left">
+                    <a href="#" class="company-link">SHML Infra Private Limited</a>
+                    <b>Proprietor: Mr. Vasant Bhatti</b> |
+                    <span style="padding:0 5px; color:red"><i class="fa-solid fa-heart"></i></span>
+                    <span class="org-other-info">
+                      <div class="tootltip-org">
+                        <div><b>Winways ID</b>: 121 <b>PAN</b>: Not Available</div>
+                        <div><b>Remark</b>: lorem ipsum dolor set emmet Lorem lorem ipsum ipsum
+                          dolor set emmet Lorem</div>
+                        <div>Created by Deepti on 08-09-2024</div>
+                        <div>Last Updated by Rajesh on 08-09-2024</div>
+                      </div>
+                      <img src="../img/info.svg" alt="">
+                    </span>
+                  </div>
+
+                </div>
+                <ul class="contact-info-box mb-1">
+                  <li style="font-weight: normal !important;">A Plus </li>
+                  <li>Sunil Dahivade </li>
+                  <li>Sharon Alvares </li>
+                  <li>Thana production</li>
+                  <li>North</li>
+                  <li>Company</li>
+                  <li>Winways dealer</li>
+                  <li class="org-other-info">
+                    <div class="inconsistent-org">
+                      <b>No Information available on organization profile regarding if the
+                        organization is a manufacturer or trader/ distributor</b>
+                    </div>
+                    <a class="inconsistent " href="#">
+
+                      inconsistent info</a>
+                  </li>
+                </ul>
+
+                <ul class="contact-info-box">
+                  <li>
+                    Mr. Vasant Bhatti
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i> +91 9920959257
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> nareshbagda@bhaviindia.com
+                  </li>
+
+                </ul>
+
+                <p class="industry-type"><b>Industries &amp; Applications</b>: Paints &amp; Coatings, Personal
+                  Care &amp; Cosmetics, Dry Mortar</p>
+
+
+
+              </div>
+
+            </div>
+            <div class="lead-list orglist">
+              <div class="lead-left"><img src="../img/active.svg" alt=""></div>
+              <div class="lead-right">
+                <div class="orgdiv-top">
+                  <div class="org-top-left">
+                    <a href="#" class="company-link">SHML Infra Private Limited</a>
+                    <b>Proprietor: Mr. Vasant Bhatti</b> |
+                    <span style="padding:0 5px; color:red"><i class="fa-solid fa-heart"></i></span>
+                    <span class="org-other-info">
+                      <div class="tootltip-org">
+                        <div><b>Winways ID</b>: 121 <b>PAN</b>: Not Available</div>
+                        <div><b>Remark</b>: lorem ipsum dolor set emmet Lorem lorem ipsum ipsum
+                          dolor set emmet Lorem</div>
+                        <div>Created by Deepti on 08-09-2024</div>
+                        <div>Last Updated by Rajesh on 08-09-2024</div>
+                      </div>
+                      <img src="../img/info.svg" alt="">
+                    </span>
+                  </div>
+
+                </div>
+                <ul class="contact-info-box mb-1">
+                  <li style="font-weight: normal !important;">A Plus </li>
+                  <li>Sunil Dahivade </li>
+                  <li>Sharon Alvares </li>
+                  <li>Thana production</li>
+                  <li>North</li>
+                  <li>Company</li>
+                  <li>Winways dealer</li>
+                  <li class="org-other-info">
+                    <div class="inconsistent-org">
+                      <b>No Information available on organization profile regarding if the
+                        organization is a manufacturer or trader/ distributor</b>
+                    </div>
+                    <a class="inconsistent " href="#">
+
+                      inconsistent info</a>
+                  </li>
+                </ul>
+
+                <ul class="contact-info-box">
+                  <li>
+                    Mr. Vasant Bhatti
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i> +91 9920959257
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> nareshbagda@bhaviindia.com
+                  </li>
+
+                </ul>
+
+                <p class="industry-type"><b>Industries &amp; Applications</b>: Paints &amp; Coatings, Personal
+                  Care &amp; Cosmetics, Dry Mortar</p>
+
+
+
+
+              </div>
+
+              <div class="right-my-group">
+                <td align="right">
+                  <a href class="button-color-red go-delete-buttonmy" onclick="showDeleteToast(event)">
+                    <i class="fa-solid fa-trash"></i>
+                  </a>
+                </td>
+              </div>
+
+            </div>
+            <div class="lead-list orglist">
+              <div class="lead-left"><img src="../img/active.svg" alt=""></div>
+              <div class="lead-right">
+                <div class="orgdiv-top">
+                  <div class="org-top-left">
+                    <a href="#" class="company-link">SHML Infra Private Limited</a>
+                    <b>Proprietor: Mr. Vasant Bhatti</b> |
+                    <span style="padding:0 5px; color:red"><i class="fa-solid fa-heart"></i></span>
+                    <span class="org-other-info">
+                      <div class="tootltip-org">
+                        <div><b>Winways ID</b>: 121 <b>PAN</b>: Not Available</div>
+                        <div><b>Remark</b>: lorem ipsum dolor set emmet Lorem lorem ipsum ipsum
+                          dolor set emmet Lorem</div>
+                        <div>Created by Deepti on 08-09-2024</div>
+                        <div>Last Updated by Rajesh on 08-09-2024</div>
+                      </div>
+                      <img src="../img/info.svg" alt="">
+                    </span>
+                  </div>
+
+                </div>
+                <ul class="contact-info-box mb-1">
+                  <li style="font-weight: normal !important;">A Plus </li>
+                  <li>Sunil Dahivade </li>
+                  <li>Sharon Alvares </li>
+                  <li>Thana production</li>
+                  <li>North</li>
+                  <li>Company</li>
+                  <li>Winways dealer</li>
+                  <li class="org-other-info">
+                    <div class="inconsistent-org">
+                      <b>No Information available on organization profile regarding if the
+                        organization is a manufacturer or trader/ distributor</b>
+                    </div>
+                    <a class="inconsistent " href="#">
+
+                      inconsistent info</a>
+                  </li>
+                </ul>
+
+                <ul class="contact-info-box">
+                  <li>
+                    Mr. Vasant Bhatti
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i> +91 9920959257
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> nareshbagda@bhaviindia.com
+                  </li>
+
+                </ul>
+
+                <p class="industry-type"><b>Industries &amp; Applications</b>: Paints &amp; Coatings, Personal
+                  Care &amp; Cosmetics, Dry Mortar</p>
+
+
+
+
+              </div>
+
+              <div class="right-my-group">
+                <td align="right">
+                  <a href class="button-color-red go-delete-buttonmy" onclick="showDeleteToast(event)">
+                    <i class="fa-solid fa-trash"></i>
+                  </a>
+                </td>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="section-header section-spacing">
+            <span>Group Team :</span>
+          </div>
+          <div class="org-box mt-3">
+            <div class="w-team-table">  
+              <table width="100%">
+                <tr style="border-bottom: 1px solid #cccccc">
+                  <td width="60px"></td>
+                  <td width="25%">User</td>
+                  <td>Remark</td>
+                </tr>
+                <tr  style="border-bottom: 1px solid #cccccc">
+                  <td>
+                    <img src="../img/active.svg" alt>
+                  </td>
+                  <td>
+                    <b>Ms. Deepti Pasi</b> <span class="admin-tag">Admin</span>
+                  </td>
+                  <td>
+                    15 Nov 2024 | 12.00 PM Requested for Access
+                    <br>
+                    Lorem ipsum dolor set emmet solr dolor set emmet added by
+                    lorem ipsum
+                  </td>
+                </tr>
+                <tr style="border-bottom: 1px solid #cccccc">
+
+                  <td>
+                    <img src="../img/active.svg" alt>
+                  </td>
+                  <td>
+                    <b>Ms. Deepti Pasi</b>
+                  </td>
+                  <td>
+                    15 Nov 2024 | 12.00 PM Requested for Access
+                    <br>
+                    Lorem ipsum dolor set emmet solr dolor set emmet added by
+                    lorem ipsum
+                  </td>
+                  <td align="right">
+                    <a href class="button-color-red go-delete-buttonmy" id="deletecfrbtn">
+                      <i class="fa-solid fa-trash"></i>
+                    </a>
+                  </td>
+                </tr>
+                <tr style="border-bottom: 1px solid #cccccc">
+
+                  <td>
+                    <img src="../img/active.svg" alt>
+                  </td>
+                  <td>
+                    <b>Ms. Deepti Pasi</b>
+                  </td>
+                  <td>
+                    15 Nov 2024 | 12.00 PM Requested for Access
+                    <br>
+                    Lorem ipsum dolor set emmet solr dolor set emmet added by
+                    lorem ipsum
+                  </td>
+                  <td align="right">
+                    <a href class="button-color-red go-delete-buttonmy" id="deletecfrbtn">
+                      <i class="fa-solid fa-trash"></i>
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="mygrp-btn">
+            <a href="#" id="addWinwaysUserModalBtn" class="add-w-user">Add more Winways User as a Member to this
+              Group</a>
+            <a href="#" class="do-later">Do it later</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- popup 7th -->
+
+    <div class="modal fade" id="deletecfr" tabindex="-1" role="dialog" aria-labelledby="modalTitleOrgHistory" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+            <div class="modal-body">
+              <div class="text-center my-4">
+                <p class="h4">Are you sure to remove user Rima from the Company Team of Pidilite Industries Limited?</p>
+              </div>
+              <div class="pt-2 pb-3" style="margin-top: 55px;">
+                <a href="#" class="Removelink">Remove</a>
+                <a href="#" class="cancellink">Cancel</a>
+              </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+  <script>
+
+    function showDeleteToast(event) {
+      event.preventDefault(); // Prevent actual link navigation
+
+      const toast = document.getElementById("deleteToast");
+      toast.style.display = "block";
+      setTimeout(() => {
+        toast.classList.add("show");
+      }, 10); // slight delay to trigger CSS transition
+
+      // Auto-hide after 3 seconds
+      setTimeout(() => {
+        toast.classList.remove("show");
+        toast.classList.add("hide");
+        setTimeout(() => {
+          toast.style.display = "none";
+          toast.classList.remove("hide");
+        }, 300); // wait for fade-out animation
+      }, 3000);
+    }
+
+    function closeToast() {
+      const toast = document.getElementById("deleteToast");
+      toast.classList.remove("show");
+      toast.classList.add("hide");
+      setTimeout(() => {
+        toast.style.display = "none";
+        toast.classList.remove("hide");
+      }, 300);
+    }
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const openSearchOrgBtn = document.getElementById('openSearchOrgBtn');
+      const modal3btn = document.getElementById('modal3btn');
+      const openNewPopup = document.getElementById('openNewPopup');
+      const addWinwaysUserModalBtn = document.getElementById('addWinwaysUserModalBtn');
+      const confirmdltbtn = document.getElementById('confirmdltbtn');
+      const deletecfrbtn = document.getElementById('deletecfrbtn');
+
+      const currentModal = $('#CreateGroup'); // Update this as needed
+      const nextModal = $('#openSearchOrg');
+      const modal3 = $('#modal3');
+      const newPopupModal = $('#newPopupModal');
+      const addWinwaysUserModal = $('#addWinwaysUserModal');
+      const confirmdlt = $('#confirmdlt');
+      const deletecfr = $('#deletecfr');
+
+      openSearchOrgBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        currentModal.modal('hide');
+        currentModal.on('hidden.bs.modal', function () {
+          nextModal.modal('show');
+          currentModal.off('hidden.bs.modal');
+        });
+      });
+
+      modal3btn.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        nextModal.modal('hide');
+        nextModal.on('hidden.bs.modal', function () {
+          modal3.modal('show');
+          nextModal.off('hidden.bs.modal');
+        });
+      });
+
+      openNewPopup.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // Find currently shown modal
+        const $visibleModal = $('.modal.show');
+
+        if ($visibleModal.length) {
+          $visibleModal.modal('hide');
+          $visibleModal.on('hidden.bs.modal', function () {
+            newPopupModal.modal('show');
+            $visibleModal.off('hidden.bs.modal');
+          });
+        } else {
+          // If no modal is currently open, just show the new one
+          newPopupModal.modal('show');
+        }
+      });
+
+
+      addWinwaysUserModalBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // Find currently shown modal
+        const $visibleModal = $('.modal.show');
+
+        if ($visibleModal.length) {
+          $visibleModal.modal('hide');
+          $visibleModal.on('hidden.bs.modal', function () {
+            addWinwaysUserModal.modal('show');
+            $visibleModal.off('hidden.bs.modal');
+          });
+        } else {
+          // If no modal is currently open, just show the new one
+          addWinwaysUserModal.modal('show');
+        }
+      });
+
+      confirmdltbtn.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // Find currently shown modal
+        const $visibleModal = $('.modal.show');
+
+        if ($visibleModal.length) {
+          $visibleModal.modal('hide');
+          $visibleModal.on('hidden.bs.modal', function () {
+            confirmdlt.modal('show');
+            $visibleModal.off('hidden.bs.modal');
+          });
+        } else {
+          // If no modal is currently open, just show the new one
+          confirmdlt.modal('show');
+        }
+      });
+
+
+      deletecfrbtn.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // Find currently shown modal
+        const $visibleModal = $('.modal.show');
+
+        if ($visibleModal.length) {
+          $visibleModal.modal('hide');
+          $visibleModal.on('hidden.bs.modal', function () {
+            deletecfr.modal('show');
+            $visibleModal.off('hidden.bs.modal');
+          });
+        } else {
+          // If no modal is currently open, just show the new one
+          deletecfr.modal('show');
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
